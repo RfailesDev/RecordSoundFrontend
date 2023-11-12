@@ -95,7 +95,7 @@ $(document).ready(function () {
         return new Promise((resolve, reject) => {
             $.ajax({
                 type: 'POST',
-                url: 'http://85.236.189.41:777/upload',
+                url: 'https://85.236.189.41:777/upload',
                 data: formData,
                 processData: false,
                 contentType: false,
